@@ -1,5 +1,5 @@
 /********************************************************/
-/* Author      : Ahmed Fathy Abd El-Qadir	            */
+/* Author      : Ahmed Fathy Abd El-Qadir	              */
 /* Date        : 3/12/2021                              */
 /* Version     : V 1.0                                  */
 /* uC          : STM32F103C8T6                          */
@@ -30,25 +30,25 @@
 #define PIN15	15
 
 /*************** Output Modes **************/
-#define GPIO_OUTPUT_PP_10MHZ	0b0001		//10Mhz push pull
-#define GPIO_OUTPUT_OD_10MHZ	0b0101		//10MHz	open drain
-#define GPIO_OUTPUT_AFPP_10MHZ	0b1001		//10MHz	alternative function push pul
-#define GPIO_OUTPUT_AFOD_10MHZ	0b1101		//10MHz	alternative function open drain
+#define GPIO_OUTPUT_PP_10MHZ	   0b0001		  //10Mhz push pull
+#define GPIO_OUTPUT_OD_10MHZ	   0b0101		  //10MHz	open drain
+#define GPIO_OUTPUT_AFPP_10MHZ   0b1001		  //10MHz	alternative function push pul
+#define GPIO_OUTPUT_AFOD_10MHZ	 0b1101		  //10MHz	alternative function open drain
 
-#define GPIO_OUTPUT_PP_2MHZ  	0b0010		//2Mhz  push pull
-#define GPIO_OUTPUT_OD_2MHZ	    0b0110		//2MHz	open drain
-#define GPIO_OUTPUT_AFPP_2MHZ	0b1010		//2MHz	alternative function push pul
-#define GPIO_OUTPUT_AFOD_2MHZ	0b1110		//2MHz	alternative function open drain
+#define GPIO_OUTPUT_PP_2MHZ  	   0b0010		  //2Mhz  push pull
+#define GPIO_OUTPUT_OD_2MHZ	     0b0110		  //2MHz	open drain
+#define GPIO_OUTPUT_AFPP_2MHZ	   0b1010		  //2MHz	alternative function push pul
+#define GPIO_OUTPUT_AFOD_2MHZ	   0b1110		  //2MHz	alternative function open drain
 
-#define GPIO_OUTPUT_PP_50MHZ	0b0011		//50Mhz push pull
-#define GPIO_OUTPUT_OD_50MHZ	0b0111		//50MHz	open drain
-#define GPIO_OUTPUT_AFPP_50MHZ	0b1011		//50MHz	alternative function push pul
-#define GPIO_OUTPUT_AFOD_50MHZ	0b1111		//50MHz	alternative function open drain
+#define GPIO_OUTPUT_PP_50MHZ	   0b0011	  	//50Mhz push pull
+#define GPIO_OUTPUT_OD_50MHZ	   0b0111		  //50MHz	open drain
+#define GPIO_OUTPUT_AFPP_50MHZ	 0b1011		  //50MHz	alternative function push pul
+#define GPIO_OUTPUT_AFOD_50MHZ	 0b1111		  //50MHz	alternative function open drain
 
 /*************** Input Modes **************/
-#define GPIO_INPUT_ANALOG		0b0000		//Input Analog
-#define GPIO_INPUT_FLOATING		0b0100		//Input Floating
-#define GPIO_INPUT_PULLUP_DOWN	0b1000 		//Input Pullup/PullDown
+#define GPIO_INPUT_ANALOG		     0b0000		 //Input Analog
+#define GPIO_INPUT_FLOATING	     0b0100	 	 //Input Floating
+#define GPIO_INPUT_PULLUP_DOWN   0b1000 	 //Input Pullup/PullDown
 
 
 
